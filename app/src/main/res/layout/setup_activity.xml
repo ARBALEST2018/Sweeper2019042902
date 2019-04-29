@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/starter_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    tools:context=".SetupActivity">
+
+    <Button
+        android:id="@+id/small_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_bright"
+        android:text="@string/small_game"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/middle_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_light"
+        android:text="@string/middle_game"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/large_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/large_game"
+        android:textSize="36sp" />
+</LinearLayout>

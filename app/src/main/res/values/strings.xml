@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProtoSweeperDelta</string>
+
+    <string name="small_game">6 * 6 / 10 mines</string>
+    <string name="middle_game">9 * 9 / 15 mines</string>
+    <string name="large_game">12 * 12 / 20 mines</string>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
